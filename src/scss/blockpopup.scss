@@ -1,0 +1,148 @@
+.blockpopup {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 86px;
+  padding-right: 275px;
+  padding-left: 335px;
+  padding-top: 120px;
+  padding-bottom: 242px;
+  position: relative;
+}
+
+.blockpopup__img {
+  position: relative;
+}
+
+.blockpopup__img img {
+  width: 100%;
+  height: 100;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.block3text {
+  align-self:start;
+}
+
+.blockpopup_subtitle {
+  color: rgba(66, 66, 66, 1);
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 157%;
+}
+
+.blockpopup_title {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 157%;
+  color: #01996D;
+}
+
+.blockpopup_text {
+  font-size: 20px;
+  line-height: 31.4px;
+  padding-bottom: 40px;
+}
+
+.popup {
+  position: absolute;
+  width: 295px;
+  height: 295px;
+  box-shadow: -5px 5px 5px grey;
+  top: 430px;
+  left: 260px;
+  border: 1px solid grey;
+  z-index: 2;
+}
+
+.popup__body {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.popup__content {
+  background-color: #fff;
+  color: #000;
+  max-width: 800px;
+  padding: 30px;
+  position: relative;
+  width: 100%;
+  height: 100%;
+
+}
+
+.popup__close {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  color:black;
+}
+
+.popup__subtitle {
+  font-size: 14.49px;
+  font-weight: 600;
+  line-height: 22.75px;
+  text-align: center;
+  display: inline-block;
+  border-bottom: #000 1px solid;
+}
+
+.blockpopup__img1 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.popup__name {
+  padding-bottom: 15px;
+}
+
+.popup__title {
+  font-family: Georgia;
+  font-weight: 700;
+  font-size: 15.93px;
+  line-height: 25.01px;
+  padding-bottom: 16px;
+}
+
+.popup__text {
+  text-align: left;
+  padding-left: 25px;
+}
+
+.blockpopup__img {
+  margin-bottom: 140px;
+}
+
+.popup__nav li:last-child {
+  padding-top: 16px;
+}
+
+.modal {
+  display: none;
+}
+.modal-show {
+  display: block;
+}
+
+
+@media (max-width: 1300px) {
+  .blockpopup {
+    padding-right: 27px;
+    padding-left: 33px;
+  }
+}
+
+@media (max-width: 850px) {
+  .blockpopup {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+}
+

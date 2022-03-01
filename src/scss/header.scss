@@ -1,0 +1,44 @@
+.header {
+//background-color: aqua;
+}
+
+.header__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo {
+  padding-top: 31px;
+  padding-bottom: 31px;
+}
+
+.header__menu_item {
+  display: flex;
+}
+
+.header__submenu_link,
+.header__menu_link {
+  color: #292929;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.hml1 {
+  padding-left: 72px;
+}
+
+.header__submenu_item {
+  display: flex;
+}
+
+.hsl1 {
+  padding-right: 35px;
+}
+
+.hsl2 {
+  background-color: #01996D;
+  padding: 13px 50px;
+  color: white;
+}
